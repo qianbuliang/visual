@@ -1,0 +1,21 @@
+{
+  "name": "map2D",
+  "description": "2d地图教学",
+  "version": "1.0.0",
+  "author": "buliang",
+  "private": true,
+  "scripts": {
+    "start": "cross-env webpack-dev-server  --config webpack.config.dev.js",
+    "pack": "cross-env webpack --progress --hide-modules --config webpack.config.pack.js"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.12.5",
+    "html-webpack-plugin": "^4.5.0",
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.2.1",
+    "cross-env": "^3.2.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
